@@ -3,6 +3,7 @@ package Estructuras;
 public class ListaEnlazada<T> {
 
     private Nodo<T> cabeza;
+
     public void agregar(T d) {
         Nodo<T> nuevo = new Nodo<>(d);
         if (cabeza == null) {
